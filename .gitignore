@@ -29,8 +29,11 @@ _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
-# Publish output (keep release/ for final deliverable)
-# publish/ is already excluded above
+# Release deliverable is distributed via GitHub Releases, not committed
+release/
+
+# Internal tooling / memory (not project source)
+.workbuddy/
 
 # Backup and data files (optional, uncomment if needed)
 # backups/
